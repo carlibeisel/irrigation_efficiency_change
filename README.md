@@ -1,1 +1,3 @@
+# **Summary**
 
+This code extracts pivot irrigated land from existing irrigated landscape GIS shapefiles. Before you run this code, you need to download shapefiles that define irrigated land in the area you are studying. This script assumes that pivot irrigated land has arcs on the landscape. This script creates a new dataframe with areas that have this associated circular strucutre, and than creates a linear regression to show this change over time. 
